@@ -1,8 +1,8 @@
 { config, lib, pkgs, ... }:
 
 {
-	home.file.".config/nvim/config".source =
-		config.lib.file.mkOutOfStoreSymlink ~/dotfiles/nvim;
+	home.file.".config/nvim".source =
+		config.lib.file.mkOutOfStoreSymlink /home/dray/dotfiles/nvim;
 }
 	
 
