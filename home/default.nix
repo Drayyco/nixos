@@ -14,6 +14,7 @@
     ./fzf.nix
     ./nvim.nix
     ./hyprland.nix
+    ./hyprlock.nix
     ./kitty.nix
     ./packages.nix
     ./btop.nix
