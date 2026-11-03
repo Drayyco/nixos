@@ -12,6 +12,7 @@
     ./desktop/hypridle.nix
     ./git.nix
     ./fzf.nix
+    ./nvim.nix
     ./packages.nix
     ./btop.nix
     ./cursor.nix

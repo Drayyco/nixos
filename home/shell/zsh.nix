@@ -23,7 +23,7 @@
 		ls = "eza -la";
 		tree = "eza --tree";
 		snrs = "sudo nixos-rebuild switch --flake .#draynix";
-		hypredit = "$HYPR/hyprland.lua";
+		hypredit = "nvim $HYPR";
 		nrs = "(cd $NIXOS && snrs)";
 		man = "batman";
 		cat = "bat";
