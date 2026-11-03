@@ -13,6 +13,8 @@
     ./git.nix
     ./fzf.nix
     ./nvim.nix
+    ./hyprland.nix
+    ./kitty.nix
     ./packages.nix
     ./btop.nix
     ./cursor.nix

@@ -16,7 +16,7 @@
 
 	    templates = {
 		kitty.template = "kitty.conf";
-		kitty.target = "~/.config/kitty/colors.conf";
+		kitty.target = "~/dotfiles/kitty/colors.conf";
 		waybar.template = "waybar.css";
 		waybar.target = "~/.config/waybar/colors.css";
 		rofi.template = "colors.rasi";
