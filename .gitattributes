@@ -1,0 +1,3 @@
+# Encrypts Wireguard configuration file
+db/** filter=git-crypt diff=git-crypt
+modules/wireguard.nix filter=git-crypt diff=git-crypt

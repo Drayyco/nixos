@@ -1,0 +1,61 @@
+* {
+        background-color: {{color3}};
+        text-color: {{color0}};
+
+    	accent-color: {{color2}};
+    	accent2-color: {{color11}};
+    	hover-color: {{color1}};
+    	urgent-color: {{color14}};
+    	window-color: {{color6}};
+
+        selected-normal-foreground: @window-color;
+        normal-foreground:          @text-color;
+        selected-normal-background: @hover-color;
+        normal-background:          @background-color;
+
+        selected-urgent-foreground: @background-color;
+        urgent-foreground:          @text-color;
+        selected-urgent-background: @urgent-color;
+        urgent-background:          @background-color;
+
+        selected-active-foreground: @window-color;
+        active-foreground:          @text-color;
+        selected-active-background: @hover-color;
+        active-background:          @accent-color;
+
+        alpha: 200;
+}
+
+entry {
+    placeholder: "Search";
+    cursor: text;
+}
+
+element {
+        orientation: horizontal;
+        children: [element-icon, element-text];
+    }
+
+element-icon {
+        size: 2em;
+    }
+
+element-text {
+        vertical-align: 0.5;
+        // horizontal-align: 0.5;
+    }
+
+inputbar {
+        enabled: true;
+    }
+
+listview {
+        scrollbar: false;
+        lines: 8;
+    }
+
+window {
+        border-radius: 14;
+        border: 35;
+        width: 500;
+    }
