@@ -12,6 +12,7 @@
     ./desktop/hypridle.nix
     ./git.nix
     ./fzf.nix
+    ./fastfetch.nix
     ./nvim.nix
     ./hyprland.nix
     ./hyprlock.nix
