@@ -3,6 +3,7 @@
 {
   home.packages = with pkgs; [
    vim
+   vscodium
    supersonic-wayland
    libnotify
    gdm-settings
